@@ -80,7 +80,7 @@ func (app *config) saveAsFunc(win fyne.Window) func() {
 			}
 
 			if !strings.HasSuffix(strings.ToLower(write.URI().String()), ".txt") {
-				dialog.ShowInformation("Error", "请用 .txt 后缀保存!", win)
+				dialog.ShowInformation("Error", "use .txt to save!", win)
 				return
 			}
 			// save file
