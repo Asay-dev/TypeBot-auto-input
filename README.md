@@ -1,5 +1,6 @@
 # TypeBot
-自动输入支持各类语言
+Auto Input any Language(English Chinese Japanese ...)
+自动输入, 支持各类语言
 
 # 安装
 ## 依赖
